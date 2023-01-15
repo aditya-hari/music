@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-# Stop Reader service.
-if [ -e /etc/init.d/reader ]; then
-  invoke-rc.d reader stop
-fi
